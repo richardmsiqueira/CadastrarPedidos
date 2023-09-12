@@ -1,0 +1,90 @@
+.erro {
+    color: red;
+}
+
+.sucesso {
+    color: green;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 241, 237);
+}
+
+#subDiv {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 217, 202);
+    width: 55vw;
+    margin-left: 3vw;
+    border-radius: 9px;
+    margin-top: 9vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    -webkit-box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.42);
+}
+
+input {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    width: 30vw;
+    border-radius: 3px;
+    border: 0;
+    height: 4vh;
+    padding: 4px;
+}
+
+#botaoCadastrar {
+    background-color: orangered;
+    width: 30vw;
+    border-radius: 3px;
+    border: 0;
+    height: 5vh;
+    padding: 4px;
+    margin-top: 2vh;
+}
+
+h2 {
+    color: orangered;
+    border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin-top: 25px;
+}
+
+#principalDiv {
+    display: flex;
+}
+
+#divExibirPedidos {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 217, 202);
+    width: 40vw;
+    margin-right: 3vw;
+    border-radius: 9px;
+    margin-top: 9vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40vh;
+    max-height: 75vh;
+    -webkit-box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.42);
+}
+
+.hidden {
+    display: none !important;
+}

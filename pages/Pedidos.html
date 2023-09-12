@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/Pedidos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Pedidos</title>
 </head>
 <body>
     <div id="principalDiv">
+        <div id="subDiv">
         <h2>Cadastro de Pedidos</h2>
-        <input type="text" class="inputs" placeholder="Cliente">
-        <input type="text" class="inputs" placeholder="Mesa">
-        <input type="text" class="inputs" placeholder="Descrição">
-        <button id="botaoCadastrar" onclick="">Cadastrar</button>
+        <input type="text" class="inputs" id="cliente" placeholder="Cliente">
+        <input type="text" class="inputs" id="mesa" placeholder="Mesa">
+        <input type="text" class="inputs" id="descricao" placeholder="Descrição">
+        <button id="botaoCadastrar" onclick="adicionarPedido()">Cadastrar</button>
         <p id="msg"></p>
     </div>
+
     
     <div id="divExibirPedidos">
-     <h2>Lista de Pedidos - </h2>
-    <button onclick=""></button>
+        <h2>Lista de Pedidos</h2>
+    <div id="aparecerDiv">
+        
     </div>
+</div>
 
     <script src="../assets/js/Pedidos.js"></script>
 </body>
